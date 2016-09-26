@@ -30,6 +30,11 @@ main {
   background: white;
   overflow: auto;
 }
+/* Assignment on page 94, "style the content portion of the page" */
+ol {
+	list-style-type: circle;
+	background: lightgray;
+}
 
 main .left {
   float: left;
