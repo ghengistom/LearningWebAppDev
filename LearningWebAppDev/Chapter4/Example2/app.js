@@ -18,7 +18,7 @@ var main = function () {
         if ($(".comment-input1 input").val() !== "") {
             $new_comment1 = $("<p>").text($(".comment-input1 input").val());
             $new_comment1.hide();
-            $(".comments").append($new_comment1);
+            $(".comments1").append($new_comment1);
             $new_comment1.fadeIn();
             $(".comment-input1 input").val("");
         }
