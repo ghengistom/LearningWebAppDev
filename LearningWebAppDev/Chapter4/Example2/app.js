@@ -13,7 +13,19 @@ var main = function () {
         }
     };
     var addCommentFromInputBox1 = function () {
-        var $new_comment1;
+        /*
+        var $new_comment;
+
+        if ($(".comment-input1 input").val() !== "") {
+            $new_comment = $("<p>").text($(".comment-input1 input").val());
+            $new_comment.hide();
+            $(".comments1").append($new_comment); // append to .comments, instead of .comments 1
+            $new_comment.fadeIn();
+            $(".comment-input1 input").val("");
+        }
+		*/
+		
+		var $new_comment1;
 
         if ($(".comment-input1 input").val() !== "") {
             $new_comment1 = $("<p>").text($(".comment-input1 input").val());
@@ -22,6 +34,7 @@ var main = function () {
             $new_comment1.fadeIn();
             $(".comment-input1 input").val("");
         }
+		
     };
 
     $(".comment-input button").on("click", function (event) {
