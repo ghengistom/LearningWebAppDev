@@ -32,8 +32,8 @@ main {
 }
 /* Assignment on page 94, "style the content portion of the page" */
 ol {
-	list-style-type: circle;
-	background: lightgray;
+  list-style-type: circle;
+  background: lightgray;
 }
 
 main .left {

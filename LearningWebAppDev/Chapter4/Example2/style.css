@@ -1,14 +1,14 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    width: 855px;
-    margin: auto;
-    background: ivory;
-    font-size: 100%;
-    font-family: sans-serif;
+  width: 855px;
+  margin: auto;
+  background: ivory;
+  font-size: 100%;
+  font-family: sans-serif;
 }
 
 header {
@@ -19,7 +19,6 @@ header {
 h1 {
   float: left;
 }
-
 
 header p {
   float: right;
@@ -34,38 +33,25 @@ main {
   border-bottom: 1px solid darkslategray;
 }
 
-
 .comment-input {
   float: left;
   width: 285px;
 }
 
-.comment-input p {
-  margin-bottom: 10px;
-}
-
 .comment-input input {
-  width: 50%;
+  width: 80%;
   height: 30px;
   font-size: 1.2em;
   font-weight: bold;
 }
 
-.comment-input button {
-  font-weight: bold;
-  padding: 3px;
-  border-radius: 5px;
-  color: ivory;
-  background: olivedrab;
-  cursor: pointer;
-  font-size: 1.5em;
-  margin-left: 5px;
+.comment-input1 {
+  float: right;
+  width: 285px;
 }
 
-
-
 .comment-input1 input {
-  width: 50%;
+  width: 80%;
   height: 30px;
   font-size: 1.2em;
   font-weight: bold;
@@ -82,48 +68,45 @@ main {
   margin-left: 5px;
 }
 
-
-
-
+.comment-input button {
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 5px;
+  color: ivory;
+  background: olivedrab;
+  cursor: pointer;
+  font-size: 1.5em;
+  margin-left: 5px;
+}
 
 .comments {
-	background: gainsboro;
-	text: darkred;
   float: left;
-  width: 570px;
-}
-
-.comments1{
-	/*
-	background: gainsboro;
-	text: darkred;
-  float: right;
-  width: 570px;
-	*/
-}
-.comments.input {
-  	padding: 5px;
-  	margin-bottom: 10px;
-  	border-radius: 5px;
 }
 
 .comments p {
-  	padding: 5px;
-  	margin-bottom: 10px;
- 	border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
-
-.comments p:nth-child(even) {
-    background: lavender;
+.user0 {
+  color: lightgreen;
 }
 
-.comments p:nth-child(odd) {
-    background: gainsboro;
+.user1 {
+  color: darkred;
+}
+
+.comments :nth-child(even) {
+  background: lavender;
+}
+
+.comments :nth-child(odd) {
+  background: violet;
 }
 
 footer {
-    font-size: smaller;
-    margin-top: 5px;
-    clear: both;
+  font-size: smaller;
+  margin-top: 5px;
+  clear: both;
 }

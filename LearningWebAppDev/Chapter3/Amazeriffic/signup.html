@@ -4,115 +4,91 @@ Tom Bernard
 -->
 <!DOCTYPE html>
 <html lang="en">
-
-<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-<script src="semantic/dist/semantic.min.js"></script>
-
-<head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>Sign Up</title>
-</head>
-<body>
-	
-<div class="ui inverted center aligned segment">
-    <header>
-        <h1 class = "ui inverted header">Amazeriffic</h1>
-        <nav class="ui inverted menu">
-            <a class="item" href="signup.html">Sign Up!</a>
-			<a class="item" href="faq.html">FAQ</a>
-            <a class="item" href="#">Support</a>
-			<a class="item" href="index.html">Home</a>
-        </nav>
-    </header>
-    <main>
-		<div class="ui middle aligned center aligned grid">
-        	<div class="column">	
-					
-					<div class = "content">
-					<h2 class = "ui teal image header">Please sign in.</h2>
-					</div>
-					<form action="action_page.php">
-							
-							
-							
-								<div class="field">
-									<div class = "ui left icon input">
-										<i class = "user icon"> </i>
-										<input name="username" type="text" placeholder="User Name">
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+		<script src="semantic/dist/semantic.min.js"></script>
+		<head> <!-- Can't figure out why validator.w3org gives this error, it seems to run fine. Error: Start tag head seen but an element of the same type was already open.-->
+			<meta content="text/html; charset=utf-8" http-equiv="content-type">
+				<title>Sign Up</title>
+			</head>
+			<body>
+				<div class="ui inverted center aligned segment">
+					<header>
+						<h1 class = "ui inverted header">Amazeriffic</h1>
+						<nav class="ui inverted menu">
+							<a class="item" href="signup.html">Sign Up!</a>
+							<a class="item" href="faq.html">FAQ</a>
+							<a class="item" href="#">Support</a>
+							<a class="item" href="index.html">Home</a>
+						</nav>
+					</header>
+					<main>
+						<div class="ui middle aligned center aligned grid">
+							<div class="column">
+								<div class = "content">
+									<h2 class = "ui teal image header">Please sign in.</h2>
+								</div>
+								<form action="action_page.php">
+									<div class="field">
+										<div class = "ui left icon input">
+											<i class = "user icon"></i>
+											<input name="username" type="text" placeholder="User Name">
+											</div>
+										</div>
+										<div class="field">
+											<div class = "ui left icon input">
+												<i class = "lock icon"></i>
+												<input name="email" type="text" placeholder="Email Address">
+												</div>
+											</div>
+											<div class="field">
+												<div class = "ui left icon input">
+													<i class = "lock icon"></i>
+													<input name="password" type="password" placeholder="Password">
+													</div>
+												</div>
+												<div class="ui large teal submit button" >
+									Sign Up
+													<!-- <input type="submit" value="Submit"> -->
+												</div>
+											</form>
+										</div>
 									</div>
-								</div>
-								
-								<div class="field">
-									<div class = "ui left icon input">
-										<i class = "lock icon"> </i>
-        								<input name="email" type="text" placeholder="Email Address">
+								</main>
+								<footer>
+									<div class = "ui middle center aligned grid">
+										<div class="column">
+											<h5 >Contact Us</h5>
+											<p>Amazeriffic!</p>
+											<p>555 Fiftieth Street</p>
+											<p>Asheville, NC 28801</p>
+										</div>
 									</div>
-								</div>
-								
-								<div class="field">
-									<div class = "ui left icon input">
-										<i class = "lock icon"> </i>
-        								<input name="password" type="password" placeholder="Password">
+									<div class="ui middle center aligned grid">
+										<h5 >Sitemap</h5>
 									</div>
-								</div>
-								
-								<div class="ui large teal submit button" >
-									Sign Up<!-- <input type="submit" value="Submit"> -->
-								</div>
-						
-								
-						
-					
-					
-				
-        			</form>
-			</div>
-		</div>
-		
-    </main>
-    <footer>
-		<div class = "ui middle center aligned grid">
-        	<div class="column">
-            	<h5 >Contact Us</h5>
-            	<p>Amazeriffic!</p>
-            	<p>555 Fiftieth Street</p>
-            	<p>Asheville, NC 28801</p>
-        	</div>
-		</div>
-		
-		
-        <div class="ui middle center aligned grid">
-		
-			<h5 >Sitemap</h5>
-        </div>
-		
-		
-        <div class="ui middle center aligned grid">
-			<ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Privacy</a>
-                </li>
-                <li>
-                    <a href="">Support</a>
-                </li>
-                <li>
-                    <a href="faq.html">FAQ</a>
-                </li>
-                <li>
-                    <a href="#">Careers</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-	
-	
-</div>
-	
-</body>
-</html>
+									<div class="ui middle center aligned grid">
+										<ul>
+											<li>
+												<a href="index.html">Home</a>
+											</li>
+											<li>
+												<a href="#">About Us</a>
+											</li>
+											<li>
+												<a href="#">Privacy</a>
+											</li>
+											<li>
+												<a href="">Support</a>
+											</li>
+											<li>
+												<a href="faq.html">FAQ</a>
+											</li>
+											<li>
+												<a href="#">Careers</a>
+											</li>
+										</ul>
+									</div>
+								</footer>
+							</div>
+						</body>
+					</html>
